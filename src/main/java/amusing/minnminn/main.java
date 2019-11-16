@@ -26,8 +26,4 @@ public class main extends JavaPlugin {
     public void onLoad() {
         getLogger().info(ChatColor.DARK_PURPLE+System+ChatColor.DARK_AQUA+" Plugin is Load");
     }
-
-    public void lqm(){
-        String join=getConfig().getString("lqm.CustomMessage");
-    }
 }
