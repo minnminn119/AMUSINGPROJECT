@@ -1,0 +1,4 @@
+name: AMUSINGMCPROJECT
+version: ${project.version}
+main: amusing.minnminn.main
+api-version: 1.13
