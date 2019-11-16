@@ -13,15 +13,12 @@ public class main extends JavaPlugin {
         saveConfig();
 
         getServer().getPluginManager().registerEvents(new lqm(this),this);
-
         getLogger().info(ChatColor.DARK_PURPLE+System+ChatColor.GREEN+" Plugin is Enable");
     }
-
     @Override
     public void onDisable() {
         getLogger().info(ChatColor.DARK_PURPLE+System+ChatColor.GRAY+" Plugin is Disable");
     }
-
     @Override
     public void onLoad() {
         getLogger().info(ChatColor.DARK_PURPLE+System+ChatColor.DARK_AQUA+" Plugin is Load");
