@@ -12,6 +12,6 @@
 * Null
 
 # 現在進行中のバク
-例 : xx.class xx行目実行不  
+例 : xx.class xx行目 実行不  
 * Null
 
