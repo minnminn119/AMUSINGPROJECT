@@ -16,23 +16,23 @@ public class lqm implements Listener {
         plugin = instance;
     }
     //***>>>フィールド<<<***
-    String[] CM=new String[1];//index[0~1]Config.yml Customメッセを習得
+    String[] CM=new String[2];//index[0~1]Config.yml Customメッセを習得
     //***>>>PlayerEvent<<<***
     @EventHandler//JoinMessage
     public void Join(PlayerJoinEvent e){
         Player p=e.getPlayer();
-        rep(p);
         this.CM[0]=plugin.getConfig().getString("lqm.CustomMessage.Join");
         e.setJoinMessage(ChatColor.translateAlternateColorCodes('&',CM[0]));
+        rep(p);
         pje(p);
         pjs();
     }
     @EventHandler//QuitMessage
     public void Quit(PlayerQuitEvent e){
         Player p=e.getPlayer();
-        rep(p);
         this.CM[1]=plugin.getConfig().getString("lqm.CustomMessage.Quit");
         e.setQuitMessage(ChatColor.translateAlternateColorCodes('&',CM[1]));
+        rep(p);
         pqe(p);
         pqs();
     }
@@ -68,7 +68,11 @@ public class lqm implements Listener {
     public void rep(Player p){
         String pname= p.getName();
         for(int i=0;i<=1;i++){
-            CM[i]=CM[i].replaceAll("%player",pname);
+            if(null!=CM[i]){
+                CM[i]=CM[i].replaceAll("%player",pname);
+            }else{
+                CM[i]="null";
+            }
         }
     }
 

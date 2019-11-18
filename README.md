@@ -13,5 +13,6 @@
 
 # 現在進行中のバク
 例 : xx.class xx行目 実行不  
-* lqm.class 行不明　実行不可能
+* lqm.class 72行　実行不可能  
+　　ー特定 repメソッド
 
