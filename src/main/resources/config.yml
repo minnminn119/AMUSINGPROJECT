@@ -1,0 +1,4 @@
+lqm:
+  CustomMessage:
+    Join: '&2[ + ] %player'
+    Quit: '&4[ - ] %player'
