@@ -16,5 +16,5 @@
 
 # 作成予定クラス
 例 : △△package内にxx.classの○○.class依存のコマンド操作追加予定  
-* 黒助 LQMパッケージ内ににlqm.classを使いlqmC.classにコマンド操作追加予定
+* 黒助 LQMパッケージ内にlqm.classを使いlqmC.classにコマンド操作追加予定
 
