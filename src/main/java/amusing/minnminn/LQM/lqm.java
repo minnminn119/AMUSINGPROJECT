@@ -22,8 +22,8 @@ public class lqm implements Listener {
     public void Join(PlayerJoinEvent e){
         Player p=e.getPlayer();
         this.CM[0]=plugin.getConfig().getString("lqm.CustomMessage.Join");
-        e.setJoinMessage(ChatColor.translateAlternateColorCodes('&',CM[0]));
         rep(p);
+        e.setJoinMessage(ChatColor.translateAlternateColorCodes('&',CM[0]));
         pje(p);
         pjs();
         CM[0]=null;
@@ -32,8 +32,8 @@ public class lqm implements Listener {
     public void Quit(PlayerQuitEvent e){
         Player p=e.getPlayer();
         this.CM[1]=plugin.getConfig().getString("lqm.CustomMessage.Quit");
-        e.setQuitMessage(ChatColor.translateAlternateColorCodes('&',CM[1]));
         rep(p);
+        e.setQuitMessage(ChatColor.translateAlternateColorCodes('&',CM[1]));
         pqe(p);
         pqs();
         CM[1]=null;

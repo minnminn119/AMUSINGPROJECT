@@ -5,14 +5,12 @@
 
 # Author
 例: 黒助 xx.class 開発中  
-* 黒助 lqm.class 開発中
+* 黒助 lqm.class 完成
 
 # 現在進行中のクラス
 例 : ○○.class  
-* lqm.class
+* lqm.class 完成
 
 # 現在進行中のバク
 例 : xx.class xx行目 実行不  
-* lqm.class 72行　実行不可能  ※論理エラーではある。  
-　　ー特定 repメソッド
 
