@@ -26,6 +26,7 @@ public class lqm implements Listener {
         rep(p);
         pje(p);
         pjs();
+        CM[0]=null;
     }
     @EventHandler//QuitMessage
     public void Quit(PlayerQuitEvent e){
@@ -35,6 +36,7 @@ public class lqm implements Listener {
         rep(p);
         pqe(p);
         pqs();
+        CM[1]=null;
     }
 
     //***>>>Effect<<<***
