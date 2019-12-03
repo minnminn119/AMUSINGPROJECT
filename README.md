@@ -13,10 +13,12 @@
 * MainInv.class 開発中
 * lqmC.class 開発中
 
+
 # 現在進行中のバク
 例 : xx.class xx行目 実行不  
 * MainInv.class onPlayerclickInv 論理エラー
 * MainCommands 実行可能 
+* lqmC.class  実行不可　触ってない
 
 # 作成予定クラス
 例 : △△package内にxx.classの○○.class依存のコマンド操作追加予定  
